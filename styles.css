@@ -1,0 +1,49 @@
+body{
+    background-color: hsl(207, 69%, 92%);
+} 
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+#img{
+    border-radius: 15px;
+    overflow:hidden;
+}
+#small{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width:375px;
+    border: 1px solid hsl(212, 45%, 89%);
+    background-color: white;
+    border-radius: 25px;}
+#main{
+    font-family: 'Outfit', monospace;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-size: 24px;
+    text-align: center;
+    padding-top: 7%;
+    padding-left:5%;
+    padding-right: 5%;
+}
+#extra{
+    font-size: 15px;
+    color:hsl(220, 15%, 55%);
+    padding-left:10%;
+    padding-right: 10%;
+    text-align: center;
+}
+.attribution{
+     font-size: 11px; text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.card-image-top{
+    border-radius: 25px;
+}
