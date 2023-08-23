@@ -1,5 +1,5 @@
 body{
-    background-color: hsl(207, 69%, 92%);
+    background-color: hsl(212, 45%, 89%);
 } 
 .container {
     display: flex;
@@ -11,25 +11,25 @@ body{
     overflow:hidden;
 }
 #small{
+    width:375px;
+    background-color: white;
+    border-radius: 25px;
+}
+main{
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    width:375px;
-    border: 1px solid hsl(212, 45%, 89%);
-    background-color: white;
-    border-radius: 25px;}
-#main{
-    font-family: 'Outfit', monospace;
+}
+h1{
+    font-family: Outfit;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
     font-size: 24px;
     text-align: center;
-    padding-top: 7%;
-    padding-left:5%;
-    padding-right: 5%;
+    padding: 5%;
 }
 #extra{
     font-size: 15px;
