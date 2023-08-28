@@ -1,0 +1,145 @@
+main{
+    font-family: 'Hanken Grotesk';
+    font-size:18px;
+    margin: 0;
+    display: table;
+    margin-top: 10%;
+}
+#summary{
+    font-size: 20px;
+    font-weight:800;
+}
+.text-end{
+    display: inline;
+}
+.attribution {
+    font-size: 11px; text-align: center;
+    margin-top: 10px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    margin-top: 10px;
+}
+.card-body{
+    width: 375px;
+    margin:auto; 
+}
+#seventysix{
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+    padding-top: 20%;
+    padding-bottom: 0;
+    margin-bottom: -10px;
+}
+.right{
+    display: inline;
+    float:right;
+}
+.test{
+    margin:auto;
+    width: 200px;
+    height: 200px;
+    background-color: hsla(256, 72%, 46%, 1);
+    margin-bottom:40px;
+}
+h4{
+    color:white;
+}
+.tit{
+    display:inline;
+    text-align: left;
+}
+.bold{
+    display: inline;
+    text-align:right;
+}
+#memory{
+    text-align: left;
+}
+#summary{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: left;
+}
+.line{
+    padding:15px;
+}
+#reaction{
+    font-weight: 700;
+    color:hsl(0, 100%, 67%);
+}
+#memory{
+    font-weight: 700;
+    color:hsl(39, 100%, 56%);
+}
+#verbal{
+    font-weight: 700;
+    color:hsl(166, 100%, 37%);
+}
+#visual{
+    font-weight: 700;
+    color:hsl(234, 85%, 45%);
+}
+.feze{
+    color:rgb(145, 154, 161);
+    display: inline;
+    font-weight: 600;
+}
+#bluecard{
+    margin: auto;
+    width: 375px;
+    color: hsl(241, 100%, 89%);
+    background-image: linear-gradient(180deg,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 24px; 
+    text-align: center;
+}
+#right-card{
+    border: 1px solid white;
+    width: 375px;
+    margin:auto;
+}
+h3{
+    font-size: 20px;
+}
+.bold{
+    font-weight: 800;
+}
+h5{
+    display: inline;
+}
+#you{
+    padding-left: 11%;
+    padding-right: 11%;
+}
+.button {
+    width:375px;
+    background-color:rgb(48,59,90);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 25px;
+  }
+#result{
+    font-weight: 700;
+    padding-bottom:6%;
+}
+@media screen and (max-width:992px){
+    main{
+        margin-top: 0;
+    }
+    #bluecard{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }  
+}
+@media screen and (min-width:992px){
+    #bluecard{
+        margin-right: -2%;
+    }  
+    #right-card{
+        margin-left:-2%;
+    }
+}
